@@ -1,0 +1,18 @@
+﻿{
+  "log": [ "HTTP+" ],
+  "adminInterface": "127.0.0.1:4985",
+  "interface": "0.0.0.0:4984",
+  "databases": {
+    "dbase": {
+      "server": "http://localhost:8091",
+      "bucket": "default",
+      "users": {
+        "GUEST": {
+          "disabled": false,
+          "admin_channels": [ "*" ]
+        }
+      }
+    }
+  }
+}
+
